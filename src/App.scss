@@ -1,0 +1,19 @@
+@import './assets/styles/variables';
+
+main{
+    // background-color: $very-dark-blue;
+    display: grid;
+    place-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    @media screen and (max-width: 768px) {
+       height: auto;
+    }
+    &.dark{
+        background-color: $very-dark-blue-text;
+    }
+    &.light{
+        background-color: $white-000;
+    }
+}

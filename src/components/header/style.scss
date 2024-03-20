@@ -1,0 +1,59 @@
+@import '../../assets/styles/variables';
+
+header {
+    margin-block: 2rem;
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        
+    }
+
+    .blacks {
+        color: $very-dark-blue-text;
+    }
+
+    .lights {
+        color: $white-000;
+    }
+
+    .header-title {
+        font-size: $heading-1 + 1.2rem;
+    }
+
+    small {
+        color: $very-desaturated-text;
+        font-size: $heading-3;
+    }
+
+    .form-check {
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .form-switch {
+        .form-check-input {
+            padding: 1.5rem 3rem;
+            background-color: $toggle;
+        }
+
+        .form-check-input:not(:checked) {
+            background-color: $lime-green;
+            background-position: left center;
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='${very-dark-blue}'/%3e%3c/svg%3e");
+        }
+
+        // .form-check-input:checked {
+        //     background-position: left center;
+        //     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='red'/%3e%3c/svg%3e");
+        // }
+
+    }
+
+    .form-check-label {
+        order: -2;
+        color: $white-000;
+        font-size: 1.6rem;
+    }
+
+
+}
