@@ -7,20 +7,15 @@ header {
         
     }
 
-    .blacks {
-        color: $very-dark-blue-text;
-    }
+    
 
-    .lights {
-        color: $white-000;
-    }
 
     .header-title {
         font-size: $heading-1 + 1.2rem;
     }
 
     small {
-        color: $very-desaturated-text;
+        color: var(--card-color);
         font-size: $heading-3;
     }
 
@@ -31,12 +26,16 @@ header {
     }
 
     .form-switch {
+        outline: none !important;
         .form-check-input {
+            border: none !important;
             padding: 1.5rem 3rem;
             background-color: $toggle;
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='white'/%3e%3c/svg%3e");
         }
 
         .form-check-input:not(:checked) {
+            border: none !important;
             background-color: $lime-green;
             background-position: left center;
             background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='${very-dark-blue}'/%3e%3c/svg%3e");
@@ -45,8 +44,8 @@ header {
 
     .form-check-label {
         order: -2;
-        color: $white-000;
         font-size: 1.6rem;
+        margin-right: 2rem;
     }
 
 

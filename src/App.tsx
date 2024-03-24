@@ -3,13 +3,11 @@ import { ThemeProvider } from "./context/ThemeContext";
 import HomePages from "./pages/homePages";
 
 function App() {
-  
   return (
-    
     <ThemeProvider>
-    <HomePages />
+      <HomePages />
     </ThemeProvider>
-  )
+  );
 }
 
 export default App;

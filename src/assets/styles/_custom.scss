@@ -35,8 +35,15 @@ body {
   text-decoration: none;
 }
 body {
-  //   font-family: ;
-  //   color: $black-200;
+  // font-family: ;
   font-size: 1.6rem;
+  main {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    display: grid;
+    place-content: center;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
 }
-@import "../node_modules/bootstrap/scss/bootstrap";
