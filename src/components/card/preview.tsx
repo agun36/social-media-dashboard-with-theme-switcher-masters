@@ -1,14 +1,14 @@
 import React from "react";
 import "../card/style.scss";
 import { PREVIEW_DATA } from "../../assets/data/data";
+import CardPreview from "./cardPreview";
 
-import CardPlace from "./card";
 
 export default function Preview() {
   return (
     <div className="container preview">
       {PREVIEW_DATA.map((cardData, idx) => (
-        <CardPlace
+        <CardPreview
           key={idx}
           index={idx}
           name={cardData.name}

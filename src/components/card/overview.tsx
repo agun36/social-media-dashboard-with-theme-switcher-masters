@@ -2,7 +2,8 @@ import React from "react";
 import {  Container } from "react-bootstrap";
 import "../card/style.scss"
 import { OVERVIEW_DATA } from "../../assets/data/data";
-import CardOverview from "./card2";
+import CardOverview from "./CardOverview";
+
 export default function Overview() {
     return (
       <div className="overview-wrapper ">

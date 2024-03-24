@@ -1,6 +1,6 @@
 @import "../../assets/styles/variables";
 .card-section {
-  border-radius: 1rem;
+  border-radius: .4rem;
   padding: 1rem 2rem;
   background-color: var(--card-bg);
   display: flex;
@@ -39,7 +39,7 @@
 }
 
 .card-section1 {
-  border-radius: 1rem;
+  border-radius: .4rem;
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   background-color: var(--card-bg);

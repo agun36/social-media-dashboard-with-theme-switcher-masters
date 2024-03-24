@@ -12,7 +12,7 @@ export interface Props {
   iconDown?: string;
   index: number;
 }
-const CardPlace = (props: Props) => {
+const CardPreview= (props: Props) => {
   const todayFollowersClass = props.iconUp
     ? "green"
     : props.iconDown
@@ -50,4 +50,4 @@ const CardPlace = (props: Props) => {
     </div>
   );
 };
-export default CardPlace;
+export default CardPreview;
