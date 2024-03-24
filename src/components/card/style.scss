@@ -56,6 +56,7 @@
   }
   &:nth-child(3) {
     border-top: 2px solid transparent;
+    border-radius: 1rem;
     border-image: linear-gradient(90deg, hsl(37, 97%, 70%)5%, hsl(329, 70%, 58%)100%) 1;
   }
   &:nth-child(n+4) {
